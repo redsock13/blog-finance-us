@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { overflow-x: hidden; font-family: 'Inter', sans-serif; background: #0f0f0f; color: #fff; }
+
+.gradient-text {
+  background: linear-gradient(135deg, #a855f7, #7b5ea7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card {
+  background: #1a1a1a;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  padding: 24px;
+  transition: border-color 0.3s;
+}
+.card:hover { border-color: rgba(168,85,247,0.4); }
+
+.btn-primary {
+  background: linear-gradient(135deg, #a855f7, #7b5ea7);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  border: none;
+}
+.btn-primary:hover { opacity: 0.85; }
+
+.btn-secondary {
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #94a3b8;
+  padding: 14px 28px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
+.btn-secondary:hover { border-color: rgba(255,255,255,0.3); }
